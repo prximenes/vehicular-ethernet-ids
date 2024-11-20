@@ -1,0 +1,5 @@
+Train: (array([0, 1]), array([135540, 379107]))
+Val: (array([0, 1]), array([32904, 95758]))
+None
+Training for fold 3 ...
+Results for fold 3: Recall of 0.9987886129618413; accuracy of 0.9990440067774479; precision of 0.9999268157534318; f1 of 0.999357390273083; auroc of 0.9999131759691025; aupr of 0.9999752978325082
