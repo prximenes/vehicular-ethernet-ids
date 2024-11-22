@@ -1,0 +1,2 @@
+Fold 5 Results:
+Accuracy: 0.9942, Recall: 0.9928, Precision: 0.9994, F1-Score: 0.9961, auroc: 0.9997
