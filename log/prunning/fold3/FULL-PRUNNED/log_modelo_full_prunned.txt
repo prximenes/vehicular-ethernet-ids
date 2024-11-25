@@ -1,0 +1,5 @@
+
+Evaluate full prunned at GPU
+
+Runtime of the program is 8.156257390975952
+us/sample is 63.39290070864709

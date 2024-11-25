@@ -1,0 +1,9 @@
+Runtime of the program is 7.88705849647522
+us/sample is 61.30060543497863
+Results for Prunned Model [50% sparsity (50% zeros in weights) and end with 80% sparsity]:
+ Recall of 0.998827852752962; accuracy of 0.9989041053302451; precision of 0.9996829322426203; f1 of 0.9992552095713494; auroc of 0.9999092350141394; aupr of 0.9999704659310537
+
+Evaluate 3xPrunned at GPU
+
+Runtime of the program is 7.812190771102905
+us/sample is 60.71871081673614

@@ -1,0 +1,12 @@
+Runtime of the program is 7.793245315551758
+us/sample is 60.57146100287387
+Results for Prunned Model [10x]:
+ Recall of 0.998827852752962; accuracy of 0.9989041053302451; precision of 0.9996829322426203; f1 of 0.9992552095713494; auroc of 0.9999092350141394; aupr of 0.9999704659310537
+Inference time: 0.0043 seconds
+
+
+
+Evaluate 10xPrunned TFLite Model at GPU (1000 inferences)
+
+Runtime of the program is 1.0790209770202637
+us/sample is 1079.0209770202637
