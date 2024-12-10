@@ -1,0 +1,14 @@
+Runtime of the program is 6.304679870605469
+Results for Prunned Model [89% sparsity]:
+ Recall of 0.9980147415996113; accuracy of 0.998507717896504; precision of 0.9999576782275642; f1 of 0.9989852652051667; auroc of 0.9995552013722084; aupr of 0.999784882510825
+us/sample is 49.00187989154116
+
+Runtime of the program is 6.284803628921509
+Results for Prunned Model [89% sparsity - 3x prunned]:
+ Recall of 0.9980147415996113; accuracy of 0.998507717896504; precision of 0.9999576782275642; f1 of 0.9989852652051667; auroc of 0.9995552013722084; aupr of 0.999784882510825
+us/sample is 48.847395726177965
+Runtime of the program is 6.300175189971924
+
+Results for Prunned Model [89% sparsity - 3x prunned]:
+ Recall of 0.9980147415996113; accuracy of 0.998507717896504; precision of 0.9999576782275642; f1 of 0.9989852652051667; auroc of 0.9995552013722084; aupr of 0.999784882510825
+us/sample is 48.9668681504401
