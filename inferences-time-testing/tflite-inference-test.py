@@ -28,8 +28,8 @@ def escolher_modelo():
 modelo_escolhido = escolher_modelo()
 
 # Carregar os dados
-x_val = np.load("small_x_val.npy")
-y_val = np.load("small_y_val.npy")
+x_val = np.load("../dataset/reduced-to-rasp/small_x_val.npy")
+y_val = np.load("../dataset/reduced-to-rasp/small_y_val.npy")
 
 # Garantir que os dados estejam no formato correto
 x_val = np.expand_dims(x_val, axis=-1).astype(np.float32)  # Adicionar a dimensão do canal se necessário
