@@ -18,6 +18,8 @@ def escolher_modelo():
     print("1 - full_cnn_model.h5")
     print("2 - distillation_model.h5")
     print("3 - ultra_light_distillation_model.h5")
+    print("4 - Prunned")
+    print("5 - Prunned and Quantized")
 
     escolha = input("Digite o número do modelo desejado: ")
     if escolha == "1":
@@ -26,8 +28,11 @@ def escolher_modelo():
         return "../saved models/h5/distillation_model.h5"
     elif escolha == "3":
         return "../saved models/h5/ultra_light_distillation_model.h5"
-    elif escolha == "0":
-        return "../saved models/h5/ultra_light_distillation_adjusted_model.h5"
+    elif escolha == "4":
+        return "../saved models/tflite/h5/3xPrunned.h5"
+    elif escolha == "5":
+        return "../saved models/tflite/prunned/10xPrunned_TFLite.tflite"
+
     else:
         print("Escolha inválida. Tente novamente.")
         return escolher_modelo()

@@ -8,7 +8,8 @@ def escolher_modelo():
     print("1 - full_cnn_model.tflite")
     print("2 - distillation_model.tflite")
     print("3 - ultra_light_distillation_model.tflite")
-    print("4 - 10xPrunned_TFLite.tflite")
+    print("4 - Prunned")
+    print("5 - Prunned and Quantized")
 
     escolha = input("Digite o número do modelo desejado: ")
     if escolha == "1":
@@ -18,8 +19,9 @@ def escolher_modelo():
     elif escolha == "3":
         return "../saved models/tflite/distillation/ultra_light_distillation_model.tflite"
     elif escolha == "4":
+        return "../saved models/tflite/prunned/TFLite_3xPrunned.tflite"
+    elif escolha == "5":
         return "../saved models/tflite/prunned/10xPrunned_TFLite.tflite"
-
     else:
         print("Escolha inválida. Tente novamente.")
         return escolher_modelo()
